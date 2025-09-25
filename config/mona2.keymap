@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp LG(C)  &kp ESC       &kp L    &kp U          &kp T                                                          &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp Q      &kp E         &kp I    &kp A          &kp O                                  &kt N                   &kp K        &kp T  &kp N  &kp S  &kp H
-&kp Z      &kp Z         &kp X    &kp C          &kp V        &kp F14                   &kp F15                 &kp G        &kp D  &kp M  &kp J  &kp B
-&kp LCTRL  &kp LEFT_WIN  &kp F16  &kp BACKSPACE  &lt 2 ENTER  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 LANG1  &lt 1 SPACE                       &kp LEFT_ALT
+&mt LG(V) LG(C)       &kp ESC                &kp L           &kp U           &kp LC(SPACE)                                 &kp F        &kp W              &kp R            &kp Y            &kp P
+&kp Q                 &mt LEFT_CONTROL E     &mt LEFT_ALT I  &mt LEFT_GUI A  &mt LEFT_SHIFT O                   &kt N      &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_GUI N  &mt RIGHT_ALT S  &lt 5 H
+&kp Z                 &kp Z                  &kp X           &kp C           &kp V             &kp LG(F14)      &kp F15    &kp G        &kp D              &kp M            &kp J            &kp B
+&kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none           &kp DELETE      &lt 2 ENTER       &kp BACKSPACE    &lt 7 TAB  &lt 1 SPACE                                                       &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -149,6 +149,15 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
         };
     };
 };
