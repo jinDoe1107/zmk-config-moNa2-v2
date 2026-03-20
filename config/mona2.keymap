@@ -279,7 +279,7 @@
             bindings = <
 &kp CAPSLOCK    &kp F1  &kp F2  &kp F3   &kp F4                     &trans          &kp LC(N7)                     &kp RS(N8)           &kp RS(N9)                  &kp RG(RS(P))
 &kp KP_NUMLOCK  &kp F5  &kp F6  &kp F7   &kp F8             &trans  &kp LEFT_SHIFT  &mt LEFT_CONTROL LA(NUMBER_4)  &mt LEFT_ALT RS(N5)  &mt RIGHT_GUI RS(NUMBER_6)  &kp RS(N0)
-&kp SCROLLLOCK  &kp F9  &kp T   &kp F11  &kp F12  &trans    &trans  &none           &kp LS(NUMBER_1)               &kp LS(NUMBER_3)     &kp RS(NUMBER_3)            &kp RS(NON_US_BACKSLASH)
+&kp SCROLLLOCK  &kp F9  &kp T   &kp F11  &kp F12  &trans    &trans  &none           &kp LS(NUMBER_1)               &kp LS(NUMBER_2)     &kp RS(NUMBER_3)            &kp RS(NON_US_BACKSLASH)
 &mac            &winP   &winF   &trans   &trans   &trans    &trans  &trans                                                                                          &bt BT_CLR
             >;
         };
