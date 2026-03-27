@@ -213,7 +213,7 @@
             bindings = <
 &none      &trans  &kp PAGE_UP     &kp UP_ARROW    &kp HOME                                      &kp CARET         &kp N7                    &kp N8                      &kp N9                  &kp RIGHT_PARENTHESIS
 &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW               &kp UNDERSCORE  &kp EXCLAMATION   &mt RIGHT_SHIFT NUMBER_4  &mt RIGHT_CONTROL NUMBER_5  &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI NUMBER_0
-&kp LG(X)  &trans  &kp PAGE_DOWN   &trans          &kp END          &kp LC(Y)    &trans          &kp LEFT_BRACKET  &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp BACKSLASH
+&kp LG(X)  &trans  &kp PAGE_DOWN   &trans          &kp END          &kp LC(Y)    &kp LC(G)       &kp LEFT_BRACKET  &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp BACKSLASH
 &trans     &trans  &trans          &trans          &trans           &trans       &kp DOT         &kp EQUAL                                                                                       &kp PIPE
             >;
 
