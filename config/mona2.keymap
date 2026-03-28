@@ -244,10 +244,10 @@
 
         L08_MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp LA(M)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &mkp MB2   &mo 8   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &none     &none      &mo 9   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                               &trans
+&trans  &trans  &trans  &trans  &trans                         &trans  &trans    &kp LA(M)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans       &trans  &mkp MB1  &mkp MB2   &mo 8   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &none     &none      &mo 9   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(TAB)  &trans                               &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
