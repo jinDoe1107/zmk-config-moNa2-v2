@@ -167,10 +167,10 @@
 
         L01_default_layer_Win {
             bindings = <
-&kp LC(F)             &kp ESC                &kp L           &kp U               &kp F                                          &kp GRAVE    &kp W              &kp R               &kp Y     &kp P
-&kp Q                 &mt LEFT_GUI E         &mt LEFT_ALT I  &mt LEFT_CONTROL A  &mt LEFT_SHIFT O                   &kp RC(A)   &kp K        &mt RIGHT_SHIFT T  &mt LEFT_CONTROL N  &lt 8 S   &lt 8 H
-&mt LC(V) LC(C)       &kp Z                  &kp X           &kp C               &kp V             &kp LC(Z)        &kp RC(F)   &kp G        &kp D              &mt LEFT_ALT M      &lt 10 J  &kp B
-&kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &none           &kp DELETE          &lt 5 ENTER       &kp BACKSPACE    &lt 11 TAB  &lt 3 SPACE                                                   &kp LG(L)
+&kp LC(F)  &kp ESC                &kp L           &kp U               &kp F                                          &kp GRAVE    &kp W              &kp R               &kp Y     &kp P
+&kp Q      &mt LEFT_GUI E         &mt LEFT_ALT I  &mt LEFT_CONTROL A  &mt LEFT_SHIFT O                   &kp RC(A)   &kp K        &mt RIGHT_SHIFT T  &mt LEFT_CONTROL N  &lt 8 S   &lt 8 H
+&kp LC(C)  &kp Z                  &kp X           &kp C               &kp V             &kp LC(Z)        &kp RC(F)   &kp G        &kp D              &mt LEFT_ALT M      &lt 10 J  &kp B
+&kp LC(V)  &kp LC(RIGHT_BRACKET)  &none           &kp DELETE          &lt 5 ENTER       &kp BACKSPACE    &lt 11 TAB  &lt 3 SPACE                                                   &kp LG(L)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -200,10 +200,10 @@
 
         L04_layer_2_mac {
             bindings = <
-&none      &trans  &kp PAGE_UP     &kp UP_ARROW    &kp HOME                                          &kp CARET         &kp N7                    &kp N8                      &kp N9                  &kp RIGHT_PARENTHESIS
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                   &kp UNDERSCORE  &kp EXCLAMATION   &mt RIGHT_SHIFT NUMBER_4  &mt RIGHT_CONTROL NUMBER_5  &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI NUMBER_0
-&kp LG(X)  &trans  &kp PAGE_DOWN   &trans          &kp END          &kp LS(LG(Z))    &trans          &kp LEFT_BRACKET  &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp BACKSLASH
-&trans     &trans  &trans          &trans          &trans           &trans           &kp DOT         &kp EQUAL                                                                                       &kp PIPE
+&none      &trans  &kp PAGE_UP     &kp UP_ARROW    &kp HOME                                          &kp CARET        &kp N7                    &kp N8                      &kp N9                  &kp RIGHT_PARENTHESIS
+&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                   &kp UNDERSCORE  &kp EXCLAMATION  &mt RIGHT_SHIFT NUMBER_4  &mt RIGHT_CONTROL NUMBER_5  &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI NUMBER_0
+&kp LG(X)  &trans  &kp PAGE_DOWN   &trans          &kp END          &kp LS(LG(Z))    &trans          &kp SLASH        &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp BACKSLASH
+&trans     &trans  &trans          &trans          &trans           &trans           &kp DOT         &kp EQUAL                                                                                      &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -211,10 +211,10 @@
 
         L05_layer_2_win {
             bindings = <
-&none      &trans  &kp PAGE_UP     &kp UP_ARROW    &kp HOME                                      &kp CARET         &kp N7                    &kp N8                      &kp N9                  &kp RIGHT_PARENTHESIS
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW               &kp UNDERSCORE  &kp EXCLAMATION   &mt RIGHT_SHIFT NUMBER_4  &mt RIGHT_CONTROL NUMBER_5  &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI NUMBER_0
-&kp LG(X)  &trans  &kp PAGE_DOWN   &trans          &kp END          &kp LC(Y)    &kp LC(G)       &kp LEFT_BRACKET  &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp BACKSLASH
-&trans     &trans  &trans          &trans          &trans           &trans       &kp DOT         &kp EQUAL                                                                                       &kp PIPE
+&none      &trans  &kp PAGE_UP     &kp UP_ARROW    &kp HOME                                      &kp CARET        &kp N7                    &kp N8                      &kp N9                  &kp RIGHT_PARENTHESIS
+&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW               &kp UNDERSCORE  &kp EXCLAMATION  &mt RIGHT_SHIFT NUMBER_4  &mt RIGHT_CONTROL NUMBER_5  &mt RIGHT_ALT NUMBER_6  &mt RIGHT_GUI NUMBER_0
+&kp LG(X)  &trans  &kp PAGE_DOWN   &trans          &kp END          &kp LC(Y)    &kp LC(G)       &kp SLASH        &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp BACKSLASH
+&trans     &trans  &trans          &trans          &trans           &trans       &kp DOT         &kp EQUAL                                                                                      &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -277,10 +277,10 @@
 
         L11_FUNCTIONS {
             bindings = <
-&kp CAPSLOCK    &kp F1  &kp F2  &kp F3   &kp F4                     &trans          &kp LC(LS(N7))                     &kp RS(RC(N8))           &kp RS(RC(N9))                  &kp RS(RC(P))
-&kp KP_NUMLOCK  &kp F5  &kp F6  &kp F7   &kp F8             &none   &kp LEFT_SHIFT  &mt LEFT_CONTROL LS(LC(NUMBER_4))  &mt LEFT_ALT RS(RC(N5))  &mt RIGHT_GUI RS(RC(NUMBER_6))  &kp RS(RC(N0))
-&kp SCROLLLOCK  &kp F9  &kp T   &kp F11  &kp F12  &trans    &trans  &none           &kp LS(LC(A))                      &kp LS(LC(M))            &kp RS(RC(NUMBER_3))            &kp RS(RC(S))
-&mac            &winP   &winF   &trans   &trans   &trans    &trans  &trans                                                                                                      &bt BT_CLR
+&kp CAPSLOCK    &kp F1  &kp F2  &kp F3      &kp F4                     &trans          &kp LC(LS(N7))                     &kp RS(RC(N8))           &kp RS(RC(N9))                  &kp RS(RC(P))
+&kp KP_NUMLOCK  &kp F5  &kp F6  &kp F7      &kp F8             &none   &kp LEFT_SHIFT  &mt LEFT_CONTROL LS(LC(NUMBER_4))  &mt LEFT_ALT RS(RC(N5))  &mt RIGHT_GUI RS(RC(NUMBER_6))  &kp RS(RC(N0))
+&kp SCROLLLOCK  &kp F9  &kp T   &kp F11     &kp F12  &trans    &trans  &none           &kp LS(LC(A))                      &kp LS(LC(M))            &kp RS(RC(NUMBER_3))            &kp RS(RC(S))
+&mac            &winP   &winF   &bt BT_CLR  &trans   &trans    &trans  &trans                                                                                                      &bt BT_CLR
             >;
         };
     };
